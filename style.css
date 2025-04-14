@@ -1,0 +1,35 @@
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background: #6200ea;
+  padding: 1rem;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+section {
+  padding: 2rem;
+}
+.profile-img {
+  border-radius: 50%;
+  width: 150px;
+  margin-top: 1rem;
+}
+.tools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tool {
+  background: #f5f5f5;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 12px;
+  font-weight: bold;
+}

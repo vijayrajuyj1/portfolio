@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vijayaraju | DevOps Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+      background: url('https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1500&q=80') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      color: #fff;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      backdrop-filter: blur(10px);
+      background-color: rgba(255, 255, 255, 0.1);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+      z-index: 1000;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      margin: 0;
+      padding: 1rem;
+    }
+
+    nav ul li {
+      margin: 0 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0.5rem 1rem;
+      border-radius: 10px;
+      transition: all 0.3s ease;
+    }
+
+    nav ul li a.active,
+    nav ul li a:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+      color: #000;
+    }
+
+    section {
+      padding: 100px 20px;
+      min-height: 100vh;
+      margin: 60px auto;
+      width: 90%;
+      max-width: 1000px;
+      background-color: rgba(255, 255, 255, 0.15);
+      border-radius: 20px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+      color: #fff;
+    }
+
+    h1, h2 {
+      color: #ffde59;
+    }
+
+    .profile-img {
+      border-radius: 50%;
+      width: 150px;
+      margin-top: 1rem;
+      box-shadow: 0 4px 15px rgba(255,255,255,0.5);
+    }
+
+    .tools {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 1rem;
+    }
+
+    .tool {
+      background: rgba(255, 255, 255, 0.25);
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-weight: bold;
+      color: #000;
+      backdrop-filter: blur(6px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+      backdrop-filter: blur(10px);
+    }
+
+    a {
+      color: #ffcc00;
+    }
+
+#home {
+  padding: 60px 20px;
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.home-photo .home-img {
+  width: 200px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 100px;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+.home-intro {
+  max-width: 500px;
+  color: #fff;
+  text-align: left;
+}
+
+.home-intro h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.home-intro p {
+  font-size: 1.2em;
+}
+
+.home-intro .motivational-text {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ffcc00;
+  margin-top: 20px;
+}
+
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#home" class="nav-link">🏠 Home</a></li>
+      <li><a href="#about" class="nav-link">👨‍💻 About</a></li>
+      <li><a href="#experience" class="nav-link">📜 Experience</a></li>
+      <li><a href="#tools" class="nav-link">🛠 Tools</a></li>
+      <li><a href="#contact" class="nav-link">📞 Contact</a></li>
+    </ul>
+  </nav>
+
+<section id="home">
+  <div class="home-container">
+    <div class="home-photo">
+      <img src="assets/vijayaraju2.jpg" alt="Vijayaraju" class="home-img">
+    </div>
+    <div class="home-intro">
+      <h1>Hi, I'm Vijayaraju</h1>
+      <p>DevOps & Cloud Engineer at <strong>Cricut</strong> (Apr 2025 – Present) Remote based and  Located at South Jordan, Utah 84095, US</p>
+      <p>Expertise: CI/CD | AWS | Kubernetes | Terraform | Jenkins</p>
+      <p class="motivational-text">"Innovation distinguishes between a leader and a follower." - Steve Jobs</p>
+    </div>
+  </div>
+</section>
+
+
+
+  <section id="about">
+    <h2>👨‍💻 About Me</h2>
+ <p>I’m a DevOps & Cloud Engineer with over 3 years of experience in designing, automating, and deploying solutions across cloud environments. Here’s what I bring to the table:</p>
+  <ul>
+    <li>✅ Expertise in AWS (EC2, S3, VPC, IAM, Lambda, EKS, RDS) and Azure</li>
+    <li>✅ CI/CD automation with Jenkins and Azure Pipelines</li>
+    <li>✅ Infrastructure as Code using Terraform and CloudFormation</li>
+    <li>✅ Container orchestration with Kubernetes and Docker Swarm</li>
+    <li>✅ Configuration management using Ansible</li>
+    <li>✅ Monitoring and logging with Prometheus, Grafana</li>
+    <li>✅ Hands-on with Git, GitHub, Bitbucket, and GitLab</li>
+    <li>✅ Proficient in writing shell scripts and automation with Bash</li>
+    <li>✅ Python scripting for DevOps automation and reporting</li>
+    <li>✅ Docker image creation, optimization, and multi-stage builds</li>
+    <li>✅ Helm for Kubernetes application packaging and versioning</li>
+    <li>✅ Implemented GitOps workflows with Argo CD</li>
+    <li>✅ Used Nexus and Artifactory for artifact management</li>
+    <li>✅ Integrated SonarQube and OWASP Dependency Check for static code analysis</li>
+    <li>✅ Managed secrets with AWS Secrets Manager and HashiCorp Vault</li>
+    <li>✅ Experience with AWS CloudWatch, ELK Stack, and Fluentd</li>
+    <li>✅ Migrated on-prem workloads to the cloud using lift-and-shift strategy</li>
+    <li>✅ Built highly available and scalable EKS and AKS clusters</li>
+    <li>✅ Set up custom VPCs with private/public subnets and NAT Gateways</li>
+    <li>✅ Worked with load balancers, Route 53, and Auto Scaling Groups</li>
+    <li>✅ Familiar with serverless architecture and AWS Lambda-based automation</li>
+    <li>✅ Created reusable Terraform modules for infrastructure standardization</li>
+    <li>✅ Experience working with PostgreSQL, MySQL, and MongoDB</li>
+    <li>✅ Integrated Slack and MS Teams notifications into pipelines</li>
+    <li>✅ Used Kafka and RabbitMQ for distributed messaging</li>
+    <li>✅ Implemented blue-green and canary deployments</li>
+    <li>✅ Hands-on with API Gateway, SQS, SNS, and Step Functions</li>
+    <li>✅ Managed RBAC and IAM policies for secure access control</li>
+    <li>✅ Experience with Agile/Scrum tools like Jira and Azure Boards</li>
+    <li>✅ Strong problem-solving skills and a passion for automation and efficiency</li>
+  </ul>
+  </section>
+
+  <section id="experience">
+    <h2>📜 Experience</h2>
+
+    <h3>Cricut – DevOps & Cloud Engineer</h3>
+    <p><em>April 2025 – Present</em></p>
+    <ul>
+      <li>Implemented CI/CD pipelines using Jenkins and GitHub Actions</li>
+      <li>Managed infrastructure with Terraform and AWS CloudFormation</li>
+      <li>Built and deployed scalable microservices on Kubernetes (EKS)</li>
+    </ul>
+ <h3>Project: Invesco Trade Exchange System</h3>
+    <p><strong>Client:</strong> Invesco<br>
+       <strong>Role:</strong> Cloud Engineer</p>
+    <ul>
+      <li>Built Kubernetes Cluster on AWS EKS from scratch, managed pods and Helm charts</li>
+      <li>Created Terraform scripts for infra automation (S3, ELB, Auto Scaling, EBS)</li>
+      <li>CI/CD implementation using Jenkins, Docker, and GitHub</li>
+      <li>Configured AWS CodePipeline with CodeBuild for microservices</li>
+      <li>Used AWS Systems Manager to automate patching and updates</li>
+      <li>Integrated SonarQube and OWASP dependency checks in the pipeline</li>
+      <li>Monitored with CloudWatch, Prometheus, and Grafana dashboards</li>
+      <li>Handled production incidents and RCA reports</li>
+      <li>Managed multi-account architecture using AWS Organizations</li>
+      <li>Maintained security best practices using IAM roles, policies, and KMS</li>
+      <li>Maintained cost visibility using AWS Budgets and Trusted Advisor</li>
+      <li>Worked with VPC peering, NAT gateways, and private subnets</li>
+      <li>Created detailed runbooks and knowledge base articles</li>
+      <li>Automated S3 lifecycle rules and replication between buckets</li>
+      <li>Built GitOps strategy using ArgoCD</li>
+    </ul>
+
+    <h3>Project: Prudential Life Insurance</h3>
+    <p><strong>Client:</strong> CTS<br>
+       <strong>Role:</strong> Cloud Engineer</p>
+    <ul>
+      <li>Deployed multi-AZ Kubernetes clusters on EKS with autoscaling</li>
+      <li>Managed Terraform modules and state locking via S3 and DynamoDB</li>
+      <li>Implemented secrets management via AWS Secrets Manager</li>
+      <li>Monitored logs with Fluentd and shipped to Elasticsearch</li>
+      <li>Configured Jenkins shared libraries and folder-based pipelines</li>
+      <li>Enabled application load balancing with TLS termination</li>
+      <li>Worked on integrating Azure AD with AWS SSO</li>
+      <li>Managed DNS with Route 53 and CloudFront caching for static sites</li>
+      <li>Introduced infrastructure linting and validation using `tflint`</li>
+      <li>Provisioned RDS clusters with automated backups and monitoring</li>
+      <li>Ensured PCI-DSS compliance across deployments</li>
+      <li>Used AWS Config for continuous resource compliance</li>
+      <li>Deployed observability stack (Prometheus, Grafana, Loki)</li>
+      <li>Documented runbooks, migration steps, and deployment guides</li>
+      <li>Created detailed cloud cost reports for management</li>
+    </ul>
+
+    <h3>Project: BYJUS Support Platform</h3>
+    <p><strong>Client:</strong> BYJUS<br>
+       <strong>Role:</strong> Support Engineer</p>
+    <ul>
+      <li>Provided L2/L3 support for infrastructure and app issues</li>
+      <li>Performed routine patching of Linux and Amazon Linux nodes</li>
+      <li>Helped migrate legacy EC2 apps to containerized workloads on EKS</li>
+      <li>Managed service mesh integration with Istio</li>
+      <li>Debugged IAM permission errors and audit trail issues</li>
+      <li>Used Ansible to automate config management across nodes</li>
+      <li>Handled SSL cert renewal and rotation using ACM and Let’s Encrypt</li>
+      <li>Set up Azure Monitor for on-prem integration</li>
+      <li>Created Azure DevOps pipelines for frontend apps</li>
+      <li>Automated environment spin-up for QA/UAT using Terraform</li>
+      <li>Helped teams with logging setup using CloudWatch + Log Insights</li>
+      <li>Documented alert playbooks and support SOPs</li>
+      <li>Worked with Nginx ingress controllers and cert-manager</li>
+      <li>Proactively monitored cost spikes and resource waste</li>
+      <li>Provided on-call support and handled weekly deployments</li>
+    </ul>
+
+  </section>
+
+  <section id="tools">
+    <h2>🛠 Tools & Technologies</h2>
+   <div class="tools">
+    <!-- AWS Tools -->
+    <span class="tool">AWS EC2</span>
+    <span class="tool">AWS S3</span>
+    <span class="tool">AWS Lambda</span>
+    <span class="tool">AWS CloudFormation</span>
+    <span class="tool">AWS CodePipeline</span>
+    <span class="tool">AWS CodeBuild</span>
+    <span class="tool">AWS CodeDeploy</span>
+    <span class="tool">AWS CodeCommit</span>
+    <span class="tool">AWS CloudWatch</span>
+    <span class="tool">AWS CloudTrail</span>
+    <span class="tool">AWS Systems Manager</span>
+    <span class="tool">AWS Secrets Manager</span>
+    <span class="tool">AWS IAM</span>
+    <span class="tool">AWS EKS</span>
+    <span class="tool">AWS RDS</span>
+    <span class="tool">AWS Route 53</span>
+    <span class="tool">AWS ELB</span>
+    <span class="tool">AWS Auto Scaling</span>
+    <span class="tool">AWS Backup</span>
+
+    <!-- Azure DevOps Tools -->
+    <span class="tool">Azure DevOps</span>
+    <span class="tool">Azure Pipelines</span>
+    <span class="tool">Azure Repos</span>
+    <span class="tool">Azure Boards</span>
+    <span class="tool">Azure Artifacts</span>
+    <span class="tool">Azure Test Plans</span>
+    <span class="tool">Azure Monitor</span>
+    <span class="tool">Azure Key Vault</span>
+    <span class="tool">Azure Kubernetes Service (AKS)</span>
+    <span class="tool">Azure Blob Storage</span>
+    <span class="tool">Azure Resource Manager (ARM)</span>
+
+    <!-- DevOps Core Tools -->
+    <span class="tool">Terraform</span>
+    <span class="tool">Jenkins</span>
+    <span class="tool">GitHub Actions</span>
+    <span class="tool">GitLab CI/CD</span>
+    <span class="tool">CircleCI</span>
+    <span class="tool">Bitbucket Pipelines</span>
+    <span class="tool">Docker</span>
+    <span class="tool">Kubernetes</span>
+    <span class="tool">Helm</span>
+    <span class="tool">Ansible</span>
+    <span class="tool">Chef</span>
+    <span class="tool">Puppet</span>
+
+    <!-- Monitoring & Logging -->
+    <span class="tool">Prometheus</span>
+    <span class="tool">Grafana</span>
+    <span class="tool">ELK Stack (Elasticsearch, Logstash, Kibana)</span>
+    <span class="tool">Nagios</span>
+    <span class="tool">Zabbix</span>
+    <span class="tool">Fluentd</span>
+
+    <!-- Code Quality & Collaboration -->
+    <span class="tool">SonarQube</span>
+    <span class="tool">OWASP Dependency Check</span>
+    <span class="tool">Postman</span>
+    <span class="tool">Slack</span>
+    <span class="tool">Jira</span>
+   
+  </div>
+  </section>
+
+  <section id="contact">
+    <h2>📞 Contact Me</h2>
+    <p>📧 Email: <a href="mailto:vijayarajuyj1@gmail.com">vijayarajuyj1@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/vijayarajuyj1/" target="_blank">linkedin.com/in/vijayarajuyj1</a></p>
+    <p>GitHub: <a href="https://github.com/vijayrajuyj1?tab=repositories" target="_blank">github.com/vijayarajuyj1</a></p>
+
+  </section>
+
+  <footer>
+    <p>© 2025 Vijayaraju | DevOps Portfolio</p>
+  </footer>
+
+  <script>
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll(".nav-link");
+
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            navLinks.forEach(link => {
+              link.classList.remove("active");
+              if (link.getAttribute("href").slice(1) === entry.target.id) {
+                link.classList.add("active");
+              }
+            });
+          }
+        });
+      },
+      { threshold: 0.6 }
+    );
+
+    sections.forEach(section => observer.observe(section));
+  </script>
+</body>
+</html>
